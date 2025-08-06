@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #fff;
+    color:#333
+}
+
+#header{
+    background-color: rgb(42, 37, 37);
+    color:white;
+    padding:10px 0px;
+}
+
+#header #main{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#tagline {
+    font-size:14px;
+    color:white;
+    margin-top:5px;
+}
+
+#navLinks{
+    list-style:none;
+    margin-top:10px;
+}
+
+#navLinks li {
+    display:inline-block;
+    margin-right:10px;
+}
+#navLinks li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+#intro{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:rgb(68, 66, 66);
+    color:white;
+    padding:200px 10px;
+    flex-wrap:wrap;
+}
+
+#text{
+    padding-right:20px;
+    margin-left:100px;
+    margin-top:-120px;
+}
+
+#text h1{
+    font-size:36px;
+    margin-bottom:60px;
+}
+
+#text p{
+    font-size:16px;
+    line-height:1.6;
+}
+
+button{
+    color:white;
+    background-color: rgb(27, 110, 184);
+    height:40px;
+    width:150px;
+    margin-top:20px;
+    border:none;
+    font-weight:bold;
+    font-size:medium;
+    border-radius:5px;
+}
+
+#about_me{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:60px 10%;
+    gap:40px;
+    position:relative;
+    margin-left:0;
+}
+
+#image{
+    position:relative;
+    z-index:2;
+    top:-217px;
+}
+
+#image img{
+    width:300px;
+    height:auto;
+}
+
+#ab_text h2{
+    color:black;
+    text-align:left;
+    margin-bottom:10px;
+}
+#line1{
+    height:4px;
+    width:30px;
+    background-color: blue;
+    margin-bottom:20px;
+
+}
+#ab_text p{
+    font-size:17px;
+    color:black;
+    line-height:1.8;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+#download-container{
+    text-align:right;
+}
+
+#download{
+    margin-top:10px;
+    margin-right:500px;
+}
